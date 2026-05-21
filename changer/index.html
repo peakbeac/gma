@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grandma - Simple Programming</title>
+    <title>Document</title>
 </head>
 <body>
     <div class="header">
@@ -11,10 +11,12 @@
         <h4><a href="https://peakbeac.github.io/gma/changer">Changer</a></h4>
         <h4><a href="https://peakbeac.github.io/gma/docs">Documentation</a></h4>
     </div>
-    <p>Grandma is a simple-to-use programming language written in plain english that anyone can understand, especially grandmothers. Grandma is used to write other languages, not as a language of its own.</p>
+    <textarea id="input" placeholder="Enter Grandma code here:"></textarea>
     <br>
-    <p>The Changer, also known as the compiler, is used to change your .gma script into the type you desire.</p>
+    <button id="convert">Convert</button>
     <br>
-    <p>Documentation details how to use the language.</p>
+    <h3>Output:</h3>
+    <pre id="outputBox"></pre>
+    <script src="changer.js"></script>
 </body>
 </html>
